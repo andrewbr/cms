@@ -31,3 +31,5 @@ var apos = require('apostrophe')({
   }
 
 });
+
+app.set('port', process.env.PORT || 8080);
